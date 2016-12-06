@@ -1,0 +1,1 @@
+../../../../../QTSkin/Classes/QTStyleParser.h

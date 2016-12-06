@@ -1,0 +1,16 @@
+PODS:
+  - QTSkin (0.1.0)
+
+DEPENDENCIES:
+  - QTSkin (from `../`)
+
+EXTERNAL SOURCES:
+  QTSkin:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QTSkin: f2d257daf6dac9c7d209729e8de6f57c6d0b7d0f
+
+PODFILE CHECKSUM: 1ab90bd44610a19b15e827e022f80808f59fa253
+
+COCOAPODS: 1.0.0

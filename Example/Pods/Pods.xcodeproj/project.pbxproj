@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04246A9F2773FEF72A523E082E6268B4 /* QTSkinStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFC429E4963D9482A3AAA33BF971A2D /* QTSkinStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF5A70704FE7571057ADB8D80C0CF8B /* QTSkinStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B647A0B56EB914D6F4E25543E993AB /* QTSkinStyleParser.m */; };
+		2034C29B1DF71BA800CB545C /* QTTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 2034C2991DF71BA800CB545C /* QTTree.h */; };
+		2034C29C1DF71BA800CB545C /* QTTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2034C29A1DF71BA800CB545C /* QTTree.m */; };
+		597C436490966D4B90DB244B18F06481 /* Pods-QTSkin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 185E3E235B67DB67B18EBD70C9EDDC5B /* Pods-QTSkin_Example-dummy.m */; };
+		67617F3A73BB25D46A1FF7C64D7335FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		879D5850DFC21283318642693A8B64A8 /* QTSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDC1A0EB7E3DC4EBD7BC9C9C1EF09D3 /* QTSkinManager.m */; };
+		9695C6B96778F33B186037CB6DADDD77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AA9E3129CC2F70C6A42F83EDA2FA674F /* QTStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB9069FB9B278C3B5FA369AB71BB5DC /* QTStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE43DC078D7F3E0FD2FBD185D3E8B816 /* QTSkinManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4ECA54FD7BA69B0A336F6B1C935998 /* QTSkinManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD8524101CE98F7416DBDD7DCA4AF376 /* QTLayoutParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 18402729DD005334F99DA182E08B77A8 /* QTLayoutParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C81B429CB5F88D4E0C6592D2E981B80A /* QTStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CAF58B8AD0E6C956402442E0988C1 /* QTStyleParser.m */; };
+		CDDFF260808CD7A483603E43EC23791A /* QTSkin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB603E14FDA3ECC927A99770542FBEFA /* QTSkin-dummy.m */; };
+		F1F43DE844976EBA4B4DE4596BDEF901 /* QTLayoutParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAB8C406F4FCEFBE981A7DFBAA794D0 /* QTLayoutParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		174A3D1AE506CBB74A49A826FF0F7C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67D9FE117527BFA12F73D5A314F5D238;
+			remoteInfo = QTSkin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B647A0B56EB914D6F4E25543E993AB /* QTSkinStyleParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QTSkinStyleParser.m; sourceTree = "<group>"; };
+		030B8DACD2B585F8B624EA783815E1FB /* Pods-QTSkin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTSkin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		18402729DD005334F99DA182E08B77A8 /* QTLayoutParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QTLayoutParser.h; sourceTree = "<group>"; };
+		185E3E235B67DB67B18EBD70C9EDDC5B /* Pods-QTSkin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QTSkin_Example-dummy.m"; sourceTree = "<group>"; };
+		1BB9069FB9B278C3B5FA369AB71BB5DC /* QTStyleParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QTStyleParser.h; sourceTree = "<group>"; };
+		1BFC429E4963D9482A3AAA33BF971A2D /* QTSkinStyleParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QTSkinStyleParser.h; sourceTree = "<group>"; };
+		2034C2991DF71BA800CB545C /* QTTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTTree.h; sourceTree = "<group>"; };
+		2034C29A1DF71BA800CB545C /* QTTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTTree.m; sourceTree = "<group>"; };
+		218FC38D6A6F75FA22B5A6B8EA3F9F62 /* Pods-QTSkin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QTSkin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25F620D153C63C9492CB6876D4ABAEBE /* QTSkin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QTSkin-prefix.pch"; sourceTree = "<group>"; };
+		3B0CAF58B8AD0E6C956402442E0988C1 /* QTStyleParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QTStyleParser.m; sourceTree = "<group>"; };
+		5AAB8C406F4FCEFBE981A7DFBAA794D0 /* QTLayoutParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QTLayoutParser.m; sourceTree = "<group>"; };
+		689B0FADEA866975E32FDD506F6EE689 /* Pods-QTSkin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTSkin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD4ECA54FD7BA69B0A336F6B1C935998 /* QTSkinManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QTSkinManager.h; sourceTree = "<group>"; };
+		C3FC831A506C8257143F275AC04DE809 /* libPods-QTSkin_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QTSkin_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D815776280059CDB56AC4201E9198DA0 /* Pods-QTSkin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QTSkin_Example-resources.sh"; sourceTree = "<group>"; };
+		DB603E14FDA3ECC927A99770542FBEFA /* QTSkin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QTSkin-dummy.m"; sourceTree = "<group>"; };
+		EB6BFD0DEEEDC7A76BE628AC27A032D1 /* QTSkin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QTSkin.xcconfig; sourceTree = "<group>"; };
+		EBDC1A0EB7E3DC4EBD7BC9C9C1EF09D3 /* QTSkinManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QTSkinManager.m; sourceTree = "<group>"; };
+		F9B5709A7F477D0EA1C397166DE57E49 /* libQTSkin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQTSkin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6E0973D6A87EBA68A7DFC8D542CCC6 /* Pods-QTSkin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QTSkin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEDEF2EBC947481DEAEC2BCA7A5F84D0 /* Pods-QTSkin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QTSkin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA73F95D4147E13C9E2DB413F4D6C70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67617F3A73BB25D46A1FF7C64D7335FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE294EDF1E98C8DFA2090DBD7B8E86D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9695C6B96778F33B186037CB6DADDD77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123347AA7BD29B0522C3C9C11A720A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC831A506C8257143F275AC04DE809 /* libPods-QTSkin_Example.a */,
+				F9B5709A7F477D0EA1C397166DE57E49 /* libQTSkin.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A1727431E90D40089E8499AB650F1C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB6BFD0DEEEDC7A76BE628AC27A032D1 /* QTSkin.xcconfig */,
+				DB603E14FDA3ECC927A99770542FBEFA /* QTSkin-dummy.m */,
+				25F620D153C63C9492CB6876D4ABAEBE /* QTSkin-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QTSkin";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				81ADB8A64D212AF9683CBF80EFCB14F6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				123347AA7BD29B0522C3C9C11A720A5A /* Products */,
+				8F48286572E03440F17F18D007E9CFA4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81ADB8A64D212AF9683CBF80EFCB14F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA570406E5FFCF2B713028F288C4A68F /* QTSkin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		83F5AA84484A3C3F1C347869377935EC /* Pods-QTSkin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				218FC38D6A6F75FA22B5A6B8EA3F9F62 /* Pods-QTSkin_Example-acknowledgements.markdown */,
+				FE6E0973D6A87EBA68A7DFC8D542CCC6 /* Pods-QTSkin_Example-acknowledgements.plist */,
+				185E3E235B67DB67B18EBD70C9EDDC5B /* Pods-QTSkin_Example-dummy.m */,
+				030B8DACD2B585F8B624EA783815E1FB /* Pods-QTSkin_Example-frameworks.sh */,
+				D815776280059CDB56AC4201E9198DA0 /* Pods-QTSkin_Example-resources.sh */,
+				FEDEF2EBC947481DEAEC2BCA7A5F84D0 /* Pods-QTSkin_Example.debug.xcconfig */,
+				689B0FADEA866975E32FDD506F6EE689 /* Pods-QTSkin_Example.release.xcconfig */,
+			);
+			name = "Pods-QTSkin_Example";
+			path = "Target Support Files/Pods-QTSkin_Example";
+			sourceTree = "<group>";
+		};
+		8F48286572E03440F17F18D007E9CFA4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F5AA84484A3C3F1C347869377935EC /* Pods-QTSkin_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE96FE325AEA694C3B012492883D4B37 /* QTSkin */ = {
+			isa = PBXGroup;
+			children = (
+				FCDE0DBB4C0ECA9D777C42CAA1A2D0D4 /* Classes */,
+			);
+			path = QTSkin;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA570406E5FFCF2B713028F288C4A68F /* QTSkin */ = {
+			isa = PBXGroup;
+			children = (
+				AE96FE325AEA694C3B012492883D4B37 /* QTSkin */,
+				6A1727431E90D40089E8499AB650F1C4 /* Support Files */,
+			);
+			name = QTSkin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCDE0DBB4C0ECA9D777C42CAA1A2D0D4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18402729DD005334F99DA182E08B77A8 /* QTLayoutParser.h */,
+				5AAB8C406F4FCEFBE981A7DFBAA794D0 /* QTLayoutParser.m */,
+				AD4ECA54FD7BA69B0A336F6B1C935998 /* QTSkinManager.h */,
+				EBDC1A0EB7E3DC4EBD7BC9C9C1EF09D3 /* QTSkinManager.m */,
+				1BFC429E4963D9482A3AAA33BF971A2D /* QTSkinStyleParser.h */,
+				02B647A0B56EB914D6F4E25543E993AB /* QTSkinStyleParser.m */,
+				1BB9069FB9B278C3B5FA369AB71BB5DC /* QTStyleParser.h */,
+				3B0CAF58B8AD0E6C956402442E0988C1 /* QTStyleParser.m */,
+				2034C2991DF71BA800CB545C /* QTTree.h */,
+				2034C29A1DF71BA800CB545C /* QTTree.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EBCC94EE9D15E877CA7C96D64223BFF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2034C29B1DF71BA800CB545C /* QTTree.h in Headers */,
+				BD8524101CE98F7416DBDD7DCA4AF376 /* QTLayoutParser.h in Headers */,
+				AE43DC078D7F3E0FD2FBD185D3E8B816 /* QTSkinManager.h in Headers */,
+				04246A9F2773FEF72A523E082E6268B4 /* QTSkinStyleParser.h in Headers */,
+				AA9E3129CC2F70C6A42F83EDA2FA674F /* QTStyleParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47CAD8EA3822D9FE65947EDF67F66638 /* Pods-QTSkin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D038B7F4D9A7F2D3A4C3CED967AF160 /* Build configuration list for PBXNativeTarget "Pods-QTSkin_Example" */;
+			buildPhases = (
+				719C2DA7FC1241CEAAED76E6C0C31973 /* Sources */,
+				BE294EDF1E98C8DFA2090DBD7B8E86D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438F2217C3D3920AB83C826F4D7B1B21 /* PBXTargetDependency */,
+			);
+			name = "Pods-QTSkin_Example";
+			productName = "Pods-QTSkin_Example";
+			productReference = C3FC831A506C8257143F275AC04DE809 /* libPods-QTSkin_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67D9FE117527BFA12F73D5A314F5D238 /* QTSkin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9CF7092CBCB5DCEC51F49EA4CF186B /* Build configuration list for PBXNativeTarget "QTSkin" */;
+			buildPhases = (
+				62CF485B19B8DD6122237488A378BF6A /* Sources */,
+				2BA73F95D4147E13C9E2DB413F4D6C70 /* Frameworks */,
+				EBCC94EE9D15E877CA7C96D64223BFF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QTSkin;
+			productName = QTSkin;
+			productReference = F9B5709A7F477D0EA1C397166DE57E49 /* libQTSkin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 123347AA7BD29B0522C3C9C11A720A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CAD8EA3822D9FE65947EDF67F66638 /* Pods-QTSkin_Example */,
+				67D9FE117527BFA12F73D5A314F5D238 /* QTSkin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62CF485B19B8DD6122237488A378BF6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F43DE844976EBA4B4DE4596BDEF901 /* QTLayoutParser.m in Sources */,
+				CDDFF260808CD7A483603E43EC23791A /* QTSkin-dummy.m in Sources */,
+				2034C29C1DF71BA800CB545C /* QTTree.m in Sources */,
+				879D5850DFC21283318642693A8B64A8 /* QTSkinManager.m in Sources */,
+				1BF5A70704FE7571057ADB8D80C0CF8B /* QTSkinStyleParser.m in Sources */,
+				C81B429CB5F88D4E0C6592D2E981B80A /* QTStyleParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719C2DA7FC1241CEAAED76E6C0C31973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597C436490966D4B90DB244B18F06481 /* Pods-QTSkin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438F2217C3D3920AB83C826F4D7B1B21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QTSkin;
+			target = 67D9FE117527BFA12F73D5A314F5D238 /* QTSkin */;
+			targetProxy = 174A3D1AE506CBB74A49A826FF0F7C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6463BAC0FE39E23512C4DFDDE436366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6BFD0DEEEDC7A76BE628AC27A032D1 /* QTSkin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QTSkin/QTSkin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B14A7ACBCE2AC0F4349E2CF647D3C49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689B0FADEA866975E32FDD506F6EE689 /* Pods-QTSkin_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B950251914CFD745DAD7BFFC975B7257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEDEF2EBC947481DEAEC2BCA7A5F84D0 /* Pods-QTSkin_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E62EDBC5BF9F53B463C75D75E6797FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6BFD0DEEEDC7A76BE628AC27A032D1 /* QTSkin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QTSkin/QTSkin-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D038B7F4D9A7F2D3A4C3CED967AF160 /* Build configuration list for PBXNativeTarget "Pods-QTSkin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B950251914CFD745DAD7BFFC975B7257 /* Debug */,
+				B14A7ACBCE2AC0F4349E2CF647D3C49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9CF7092CBCB5DCEC51F49EA4CF186B /* Build configuration list for PBXNativeTarget "QTSkin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6463BAC0FE39E23512C4DFDDE436366 /* Debug */,
+				E62EDBC5BF9F53B463C75D75E6797FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

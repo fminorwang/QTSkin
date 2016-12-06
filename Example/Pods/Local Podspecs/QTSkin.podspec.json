@@ -1,0 +1,22 @@
+{
+  "name": "QTSkin",
+  "version": "0.1.0",
+  "summary": "A short description of QTSkin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/QTSkin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fminor": "563145721@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/QTSkin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "QTSkin/Classes/**/*"
+}

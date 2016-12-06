@@ -1,0 +1,9 @@
+{
+    _containerView1: {
+        class: theme,
+    },
+
+    _containerView2: {
+        class: themeOpaque,
+    },
+}

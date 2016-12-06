@@ -1,11 +1,3 @@
-use_frameworks!
-
 target 'QTSkin_Example' do
   pod 'QTSkin', :path => '../'
-
-  target 'QTSkin_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

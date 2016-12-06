@@ -6,7 +6,8 @@
 //  Copyright (c) 2016 fminor. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+#import <QTSkinManager.h>
 
 @interface QTViewController : UIViewController
 

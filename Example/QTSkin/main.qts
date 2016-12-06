@@ -1,0 +1,11 @@
+{
+    ".theme": {
+        "backgroundColor": "#234567",
+        "layer.borderWidth": 1.0,
+        "layer.borderColor": "#000000",
+    },
+
+    ".theme.themeOpaque": {
+        "backgroundColor": "#234567^0.5",
+    }
+}
