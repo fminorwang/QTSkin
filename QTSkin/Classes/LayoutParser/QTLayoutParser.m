@@ -10,6 +10,9 @@
 
 @implementation QTLayoutParser
 
-
+- (void)parseLayoutFile:(NSURL *)url
+{
+    
+}
 
 @end

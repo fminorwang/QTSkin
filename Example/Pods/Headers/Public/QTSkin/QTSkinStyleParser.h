@@ -1,1 +1,1 @@
-../../../../../QTSkin/Classes/QTSkinStyleParser.h
+../../../../../QTSkin/Classes/StyleParser/QTSkinStyleParser.h

@@ -1,5 +1,9 @@
 PODS:
-  - QTSkin (0.1.0)
+  - QTSkin (0.1.0):
+    - SDWebImage
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
   - QTSkin (from `../`)
@@ -9,7 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  QTSkin: f2d257daf6dac9c7d209729e8de6f57c6d0b7d0f
+  QTSkin: 54c457b25675fe644a2dae22dcb7877a61f69979
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
 PODFILE CHECKSUM: 1ab90bd44610a19b15e827e022f80808f59fa253
 

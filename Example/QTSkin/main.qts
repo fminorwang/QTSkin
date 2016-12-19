@@ -3,9 +3,38 @@
         "backgroundColor": "#234567",
         "layer.borderWidth": 1.0,
         "layer.borderColor": "#000000",
+        "alpha": 0.2,
+        "hidden": false,
     },
 
     ".theme.themeOpaque": {
         "backgroundColor": "#234567^0.5",
+    },
+
+    ".theme.themeBlack": {
+        "backgroundColor": "#000000",
+    },
+
+    ".transparent" : {
+        "alpha" : 0.5,
+    },
+
+    ".demo_cell" : {
+        "layer.borderWidth" : 0.5,
+        "layer.borderColor" : "#FF0000^0.3",
+        "layer.cornerRadius" : 6.0,
+        "layer.shadowColor" : "#AA0000^0.6",
+        "layer.shadowOffset" : { 
+            "x": 5,
+            "y": 5
+        },
+        "layer.shadowOpacity" : 0.5,
+        "layer.shadowRadius" : 6.0,
+
+        "backgroundColor" : "#FFFFFF",
+    },
+
+    ".demo_cell2" : {
+        "backgroundImage" : "http://image.photophoto.cn/nm-15/041/001/0410010268.jpg",
     }
 }

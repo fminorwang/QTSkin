@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "7.0"
   },
-  "source_files": "QTSkin/Classes/**/*"
+  "source_files": "QTSkin/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
 }

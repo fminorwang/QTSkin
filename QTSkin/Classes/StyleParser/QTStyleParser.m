@@ -16,7 +16,7 @@
     return;
 }
 
-- (void)loadView:(UIView *)aView
+- (void)loadView:(UIView *)aView withStyle:(NSString *)style
 {
     // override by subclasses
     return;

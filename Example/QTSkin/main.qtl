@@ -1,9 +1,23 @@
 {
-    _containerView1: {
-        class: theme,
+    "_containerView1": {
+        "style": "theme",
+        "backgroundColor" : "#000000^0.3",
+        "type": "UIView",
     },
 
-    _containerView2: {
-        class: themeOpaque,
+    "_containerView2": {
+        "style": "themeOpaque",
+    },
+
+    "_tableView": {
+    	"type": "UITableView",
+    	"data_source": "http://api2.qingting.fm/...",
+    },
+
+    "_tableCell": {
+    	"type": "UITableViewCell",
+    	"subviews" : {
+
+    	}
     },
 }

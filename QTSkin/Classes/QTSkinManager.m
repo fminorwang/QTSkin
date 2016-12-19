@@ -8,6 +8,7 @@
 
 #import "QTSkinManager.h"
 #import "QTSkinStyleParser.h"
+#import "QTSkinLayoutParser.h"
 
 @implementation QTSkinManager
 
@@ -26,6 +27,7 @@
     self = [super init];
     if ( self ) {
         _iStyleParser = [[QTSkinStyleParser alloc] init];
+        _iLayoutParser = [[QTSkinLayoutParser alloc] init];
     }
     return self;
 }
@@ -35,9 +37,19 @@
     [_iStyleParser parseStyleFile:filePath];
 }
 
+- (BOOL)loadLayoutFile:(NSURL *)filePath
+{
+    [_iLayoutParser parseLayoutFile:filePath];
+}
+
+- (void)bindView:(UIView *)aView withStyle:(NSString *)style
+{
+    [_iStyleParser loadView:aView withStyle:style];
+}
+
 - (BOOL)bindController:(UIViewController *)controller withLayoutFile:(NSURL *)layoutPath
 {
-    
+    [self loadLayoutFile:layoutPath];
 }
 
 - (BOOL)bindContainerView:(UIView *)containerView withLayoutFile:(NSURL *)layoutPath
